@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-03-23T10:49:01.605664",
+  "patient_id": "1",
+  "symptoms": {
+    "fatigue": {
+      "frequency_rating": 2,
+      "severity_rating": 2,
+      "key_indicators": [
+        "need to rest after chores",
+        "not as much pep"
+      ],
+      "additional_notes": "Patient reported feeling tired after gardening, which is part of the daily routine."
+    },
+    "lack_of_appetite": {
+      "frequency_rating": 2,
+      "severity_rating": 2,
+      "key_indicators": [
+        "smaller portions",
+        "less interest in food"
+      ],
+      "additional_notes": "Patient reported a reduced interest in food, especially after physical activity such as gardening."
+    },
+    "nausea": {
+      "frequency_rating": 2,
+      "severity_rating": 2,
+      "key_indicators": [
+        "stomach pain"
+      ],
+      "additional_notes": "Patient noted feelings of stomach discomfort but did not specify the frequency or severity of these episodes."
+    },
+    "cough": {
+      "frequency_rating": 3,
+      "severity_rating": 3,
+      "key_indicators": [
+        "several times daily"
+      ],
+      "additional_notes": "Patient confirmed an increased rate of coughing, it’s noted that gardening duties might exacerbate the situation."
+    },
+    "pain": {
+      "frequency_rating": 2,
+      "severity_rating": 2,
+      "location": "not specified",
+      "key_indicators": [
+        "noticeable but manageable"
+      ],
+      "additional_notes": "Patient acknowledged presence of some pain, but did not specify its nature, extent or location."
+    }
+  },
+  "flag_for_oncologist": true,
+  "flag_reason": "Moderate increase in cough frequency and noticeable but manageable pain, both potentially warrant further clinical investigation.",
+  "mood_assessment": "Patient appears alert and responsive but notes general fatigue. Shows interest in personal hobbies such as gardening.",
+  "conversation_notes": "Although patient reported an overall decrease in energy and appetite, mood seems upbeat with successful engagement in hobbies. Follow-up recommended to monitor stomach discomfort, cough, and unspecified pain.",
+  "oncologist_notification_level": "amber",
+  "treatment_status": "undergoing_treatment"
+}

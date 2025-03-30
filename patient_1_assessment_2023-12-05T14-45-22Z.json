@@ -1,0 +1,53 @@
+{
+  "timestamp": "2023-12-05T14:45:22Z",
+  "patient_id": "1",
+  "symptoms": {
+    "cough": {
+      "frequency_rating": 1,
+      "severity_rating": 1,
+      "key_indicators": [
+        "stuffy nose"
+      ],
+      "additional_notes": "Mild congestion noted but minimal impact on daily activities."
+    },
+    "nausea": {
+      "frequency_rating": 1,
+      "severity_rating": 1,
+      "key_indicators": [
+        "meals don't make stomach pains"
+      ],
+      "additional_notes": "Patient reports no nausea, meals are well tolerated."
+    },
+    "lack_of_appetite": {
+      "frequency_rating": 1,
+      "severity_rating": 1,
+      "key_indicators": [
+        "Eating normally",
+        "enjoying meals",
+        "cooked meal"
+      ],
+      "additional_notes": "Patient actively engages in cooking and enjoys regular meals."
+    },
+    "fatigue": {
+      "frequency_rating": 3,
+      "severity_rating": 3,
+      "key_indicators": [
+        "get tired after cooking",
+        "sleep at 3pm after grandkids go to tutoring"
+      ],
+      "additional_notes": "Patient experiences fatigue in the afternoon requiring rest, but maintains morning activities."
+    },
+    "pain": {
+      "frequency_rating": 2,
+      "severity_rating": 2,
+      "key_indicators": [
+        "leg hurts when playing with grandson"
+      ],
+      "additional_notes": "Pain is activity-induced, occurring during play with grandson."
+    }
+  },
+  "flag_for_oncologist": false,
+  "oncologist_notification_level": "none",
+  "treatment_status": "undergoing_treatment",
+  "mood_assessment": "Patient maintains a positive outlook, enjoys daily activities despite some symptoms."
+}

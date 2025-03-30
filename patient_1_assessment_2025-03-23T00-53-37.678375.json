@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-03-23T00:53:37.678375",
+  "patient_id": "1",
+  "symptoms": {
+    "cough": {
+      "frequency_rating": 3,
+      "severity_rating": 3,
+      "key_indicators": [
+        "persistent cough"
+      ],
+      "additional_notes": "Patient did not specify the type or frequency of cough."
+    },
+    "nausea": {
+      "frequency_rating": 1,
+      "severity_rating": 1,
+      "key_indicators": [],
+      "additional_notes": "Patient reported no nausea."
+    },
+    "lack_of_appetite": {
+      "frequency_rating": 4,
+      "severity_rating": 4,
+      "key_indicators": [
+        "eating much less than usual",
+        "sticking to soft foods"
+      ],
+      "additional_notes": "Patient reported a significant decrease in appetite."
+    },
+    "fatigue": {
+      "frequency_rating": 4,
+      "severity_rating": 4,
+      "key_indicators": [
+        "low energy level",
+        "staying in bed most of the day",
+        "difficulty with basic activities"
+      ],
+      "additional_notes": "Patient reported high level of fatigue."
+    },
+    "pain": {
+      "frequency_rating": 4,
+      "severity_rating": 4,
+      "location": "back",
+      "key_indicators": [
+        "significant back pain",
+        "painkillers help but not much"
+      ],
+      "additional_notes": "Patient has severe back pain that is only partially relieved by painkillers."
+    }
+  },
+  "flag_for_oncologist": true,
+  "flag_reason": "Patient reporting significant levels of pain, fatigue, appetite loss, and a persistent cough. Additionally, red urine reported.",
+  "mood_assessment": "Patient seemed lonely and distressed with their current condition.",
+  "conversation_notes": "Patient reported feeling lonely and spending most of the time in bed due to a lack of energy.",
+  "oncologist_notification_level": "red",
+  "treatment_status": "undergoing_treatment"
+}
